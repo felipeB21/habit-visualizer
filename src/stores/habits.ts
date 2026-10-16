@@ -47,7 +47,7 @@ export const useHabitsStore = defineStore("habits", () => {
     const habit: Habit = {
       id: crypto.randomUUID(),
       name: trimmedName,
-      color: "#fff",
+      color: "bg-gray-400",
       completedDates: [],
       createdAt: new Date().toISOString(),
     };

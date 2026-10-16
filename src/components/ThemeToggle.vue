@@ -9,7 +9,7 @@ const toggleDark = useToggle(isDark);
 
 <template>
   <button @click="toggleDark()" aria-label="Change theme">
-    <Sun v-if="isDark" class="size-8" />
-    <Moon v-else class="size-8 mt-2" />
+    <Sun v-if="isDark" class="size-6" />
+    <Moon v-else class="size-6" />
   </button>
 </template>
